@@ -46,6 +46,7 @@ endmodule
 
 
 // Test bench for Ripple carry adder
+```
 module bit_rc;
 reg [3:0] A, B;
 reg Cin;
@@ -84,6 +85,7 @@ end
 initial begin
     $monitor("Time = %0t | A = %b | B = %b | Cin = %b | Sum = %b | Cout = %b", $time, A, B, Cin, Sum, Cout);
 end
+```
 ## output:
 ![Screenshot 2025-04-19 143919](https://github.com/user-attachments/assets/07d3f674-3f5c-4315-96a8-4c292410b403)
 
